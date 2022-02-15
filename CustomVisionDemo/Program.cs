@@ -19,7 +19,7 @@ namespace CustomVisionDemo
             foreach(string sample in samplesFiles)
             {
                 sw.Reset();
-                string imagePath = Path.Combine(Path.GetDirectoryName(Assembly.GetEntryAssembly().Location), "samples", sample);
+                var imagePath = Path.Combine(Path.GetDirectoryName(Assembly.GetEntryAssembly().Location), "samples", sample);
                 if (!File.Exists(imagePath))
                 {
                     Console.WriteLine($"Sample {sample} doesn't exist in the application directory");

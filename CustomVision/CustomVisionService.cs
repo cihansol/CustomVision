@@ -29,7 +29,7 @@ namespace CustomVision
         {
             try
             {
-                string requestUrI = !String.IsNullOrEmpty(projectName) ? $"{projectName}/image" : "image";
+                var requestUrI = !String.IsNullOrEmpty(projectName) ? $"{projectName}/image" : "image";
                 var request = new RestRequest(requestUrI, Method.Post);
                 request.AddFile("imageData", imageData, "image");
 
