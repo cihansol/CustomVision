@@ -26,7 +26,7 @@ namespace CustomVisionDemo
                     continue;
                 }
 
-                byte[] imageData = File.ReadAllBytes(imagePath);
+                var imageData = File.ReadAllBytes(imagePath);
 
                 sw.Start();
                 var result = await service.ProcessImage(imageData);
