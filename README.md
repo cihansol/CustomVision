@@ -1,4 +1,4 @@
-# CustomVision
+# CustomVision Docker Service POC
 Custom Vision Service
 
 ## Setup Requirements
