@@ -18,4 +18,4 @@ Custom Vision Service
 1. Build the solution CustomVision.sln
 2. Make sure to check that the `samples` directory exists in the output folder
 3. Run the demo project `CustomVisionDemo`
-4. Observe the output predictions based on the sample images.
+4. Observe the output predictions based on the sample images
